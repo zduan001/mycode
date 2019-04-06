@@ -1,3 +1,10 @@
+## 算法竞赛进阶指南, 0x10, 130. 火车进栈
+Link: https://www.acwing.com/problem/content/description/132/
+
+this is  hard (many steps) question. 
+
+First: to figure out how many ways the train can be enter and leave the train station, looking the graph. The train has to go into station before it leave the station.  if we use '+' indicates enter and '-' indicates leave. then at any time the number of the '+' must be larger than the number of  '-'. So this problem become some like "There are n '+' and n'-', how many ways we can arrange the + and - to make sure before any location. number of '+' must be larger than '-'. So This is **Catalan Number**, which is 
+
 This is the code
 ```
     #include <iostream>
